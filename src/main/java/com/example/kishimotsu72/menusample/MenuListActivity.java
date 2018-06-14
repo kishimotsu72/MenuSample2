@@ -112,6 +112,24 @@ public class MenuListActivity extends AppCompatActivity {
         menu.put("desc", "すりおろし生姜を使った生姜焼きにサラダ、ご飯とお味噌汁が付きます。");
         menuList.add(menu);
 
+        menu = new HashMap<>();
+        menu.put("name", "焼肉定食");
+        menu.put("price", 850);
+        menu.put("desc", "ご飯とお味噌汁が付きます。");
+        menuList.add(menu);
+
+        menu = new HashMap<>();
+        menu.put("name", "野菜炒め定食");
+        menu.put("price", 850);
+        menu.put("desc", "すりおろし生姜を使った生姜焼きにサラダ、ご飯とお味噌汁が付きます。");
+        menuList.add(menu);
+
+        menu = new HashMap<>();
+        menu.put("name", "ステーキ定食");
+        menu.put("price", 850);
+        menu.put("desc", "すりおろし生姜を使った生姜焼きにサラダ、ご飯とお味噌汁が付きます。");
+        menuList.add(menu);
+
         return menuList;
     }
 
